@@ -3,13 +3,13 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "maurobailotti.it.BarcodePicking"
+        id        = "maurobailotti.it.OrderGet"
         version   = "1.0.0">
 
-    <name>BARCODE PICKING</name>
+    <name>Visualizza Documenti</name>
 
     <description>
-        BARCODE PICKING TEST APPLICATION
+       Doc Test View Application
     </description>
 
     <author href="http://www.maurobailotti.it" email="mauro@maurobailotti.it">
@@ -51,7 +51,6 @@
         <gap:plugin name="Example" />
         A list of available plugins are available at https://build.phonegap.com/docs/plugins
     -->
-	<gap:plugin name="com.phonegap.plugins.barcodescanner" version="1.1.0" />
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
